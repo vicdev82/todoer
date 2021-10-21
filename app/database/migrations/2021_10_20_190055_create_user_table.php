@@ -19,6 +19,7 @@ class CreateAuthorTable extends Migration
             $table->string('name');
             $table->string('alias');
             $table->string('memberOf');
+            $table->rememberToken();
         });
     }
 
